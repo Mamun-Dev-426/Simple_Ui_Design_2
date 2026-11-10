@@ -8,7 +8,7 @@ class EmployeeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Employee List"),
+        title: Text("Employee List",style: TextStyle(fontSize: 20),),
         centerTitle: true,
       ),
 

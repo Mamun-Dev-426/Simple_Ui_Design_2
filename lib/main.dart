@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:practise/employee.dart';
 import 'package:practise/home.dart';
+import 'package:practise/meeting.dart';
 import 'package:practise/shopping.dart';
 
 void main() {
@@ -49,6 +50,9 @@ class MainScreen extends StatelessWidget {
           }
           else if(index==2){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>shoppingscreen()));
+          }
+          if(index==3){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Meeting()));
           }
         },
       ),

@@ -9,7 +9,7 @@ class shoppingscreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle:true,
-        title: Text("Shopping Screen",
+        title: Text("Shopping",
           style: TextStyle(fontWeight: FontWeight.w600,color: Colors.black),
         ),
       ),
